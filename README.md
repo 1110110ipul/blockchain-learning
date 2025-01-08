@@ -247,3 +247,156 @@ Think of it like this:
 
 
 Projects list : 
+
+learning Day2  :
+
+# solana : 
+
+  BPF Loader in solana
+
+  Authority in Solana Programs
+  
+  Creating and revoking mint 
+  
+  (
+- Solana accounts are like lockers that store data (up to 10MB) and require rent in SOL to maintain
+- The System Program is responsible for creating new accounts, allocating space, and assigning program ownership
+- BPF Loader Program manages custom programs (smart contracts) by deploying, upgrading, and executing them
+- Authority in Solana refers to the account or person with permission to make decisions or perform actions in a program
+- Different types of authorities exist, such as token mint authority, token freeze authority, and upgrade authority
+- Mint authority can be created and revoked for tokens, affecting the ability to mint new tokens
+  )
+
+  solana consensus mechanism : 
+
+  important links for solana developers : 
+
+  understanding solana runtime : 
+
+  solana networks : 
+
+  solana explorer : 
+
+  installing solana and other solana tools for building in solana eco system : 
+
+
+
+  Types of client nodes : 
+
+  Types of Nodes as a services : 
+
+  difference between client nodes and nodes as a service :
+
+  understanding solana RPC api : 
+
+  understanding transation in solana : 
+
+
+projects :
+  creating wallet in solana in react : 
+
+  creating first smart contract on solana
+
+  create a react app and connecting it to rpc server to get solana account details : 
+
+  creating a basic dapp in solana in solana : 
+
+  miniting Token in solana
+
+  miniting NFT in solana
+
+  creating a cloud wallet in solana
+
+  creating a bonkbot in sol
+
+  writing 10 smart contract in solana to understand different concept for solana applications :
+
+  creating a dapp for cross communication to different blockchain
+    Frontend-Only DApp:
+      A simple NFT viewer that fetches data directly from the blockchain and displays it.
+      Requires a user wallet but minimal backend logic.
+
+    Full DApp (Frontend + Backend):
+      A DeFi lending platform where:
+        The frontend provides the user interface for deposit, borrow, and repay actions.
+        The backend consists of smart contracts deployed on a blockchain to manage transactions and balances.
+
+    Hybrid DApp:
+      A decentralized social media platform where:
+        The blockchain backend handles post ownership and rewards.
+        A centralized backend serves images or videos for performance optimization.
+ 
+remaining topics : 
+
+ difference between (common in all the blockchains): 
+  
+  * Bridges allow asset transfers across chains.
+  * Oracles provide off-chain or cross-chain data to smart contracts.
+  * Cross-chain messaging enables smart contracts to trigger actions across different chains. (cross chain communication)
+  * Interoperable DeFi protocols allow interaction with DeFi applications on multiple blockchains.
+  * RPC is a communication protocol for querying data from and interacting with blockchain nodes.
+
+  difference between FT's and NFT's
+
+
+  testing and debugging in solana : 
+
+  solana networking
+
+  solana performance and scalability : 
+
+  solana security :
+
+  deploying and monitoring solana app and smartcontract
+
+  IPFS
+
+  BonkBot
+
+  Stacking
+
+  LST(liquid stacking token)
+
+  Indexer
+
+  DEX and it's concepts : 
+
+  wallets and it's concepts
+
+  world state and it;s concepts
+
+  Account types in solana and ethereum
+
+  DEX vs CEX and it's internal concepts
+
+  PDAs - Program Derived addresses , Solana Blockchain, Token Program, Mint Account and ATA
+
+
+  important link to learn : 
+
+  dapp : https://feather-lion-ff2.notion.site/Week-8-0-1-offline-107246afc9f28026a17bc87acf4f6e98
+  
+
+  https://petal-estimate-4e9.notion.site/Extra-session-Ideating-creating-and-publishing-your-first-Dapp-OS-work-9f8a24fe05bc47caaebb7c87ed70c338
+
+  https://petal-estimate-4e9.notion.site/Web-3-Cohort-d1b49c992dbf4648b185f974523d127c
+
+  https://github.com/orgs/100xdevs-cohort-3/repositories?
+
+  https://www.canva.com/design/DAGWfh7FkYs/atPF0eKRrFcVvxIWs1R3Sw/edit
+
+
+  # Solidity :
+
+  EVM
+
+  ![alt text](image.png) 
+
+  Keccak-256 and Remote Procedure Calls (RPC) and JSON-RPC
+
+
+bitcoin white paper: https://bitcoin.org/bitcoin.pdf
+
+ethereum white paper : https://ethereum.org/en/whitepaper/
+
+solana white paper : https://solana.com/solana-whitepaper.pdf
